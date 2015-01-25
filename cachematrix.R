@@ -12,7 +12,7 @@
 ## using the '<<-' operator.
 
 makeCacheMatrix <- function(x = matrix()) {
-     i <- NULL
+     i <- NULL                          # i is the inverse matrix of x
      set <- function(x = matrix){
           x <<- y
           i <<- NULL
